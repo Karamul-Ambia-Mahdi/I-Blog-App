@@ -17,7 +17,7 @@
             </div>
 
             <!-- Login Form -->
-            <form class="mt-8 space-y-6" action="#" method="POST">
+            <form class="mt-8 space-y-6" action="{{ route('profile') }}" method="GET">
                 <div class="rounded-md shadow-sm space-y-4">
                     <!-- Email Input -->
                     <div>

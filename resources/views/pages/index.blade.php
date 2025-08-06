@@ -40,7 +40,7 @@
                         <h3 class="text-xl font-bold mb-2 text-gray-800">The Future of Web Development in 2023</h3>
                         <p class="text-gray-600 mb-4">Explore the latest trends and technologies shaping the future of web
                             development this year.</p>
-                        <a href="#" class="text-blue-600 font-medium hover:text-blue-800 transition">Read More</a>
+                        <a href="{{ route('single-blog') }}" class="text-blue-600 font-medium hover:text-blue-800 transition">Read More</a>
                     </div>
                 </div>
 

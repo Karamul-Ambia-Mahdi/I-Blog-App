@@ -21,9 +21,19 @@ class PageController extends Controller
     {    
         return view('pages.login');
     }
-    
+
     public function register()
     {    
         return view('pages.register');
+    }
+
+    public function singleBlog()
+    {    
+        return view('pages.single-blog');
+    }
+
+    public function profile()
+    {    
+        return view('pages.profile');
     }
 }
