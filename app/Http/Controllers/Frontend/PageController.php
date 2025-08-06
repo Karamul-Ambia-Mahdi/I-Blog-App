@@ -11,4 +11,19 @@ class PageController extends Controller
     {    
         return view('pages.index');
     }
+
+    public function categories()
+    {    
+        return view('pages.categories');
+    }
+
+    public function login()
+    {    
+        return view('pages.login');
+    }
+    
+    public function register()
+    {    
+        return view('pages.register');
+    }
 }

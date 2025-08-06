@@ -1,5 +1,5 @@
 <nav class="hidden md:flex space-x-8 items-center">
-    <a href="/" class="text-blue-600 font-medium">Home</a>
+    <a href="{{ route('home.index') }}" class="text-blue-600 font-medium">Home</a>
     <!-- Categories Dropdown -->
     <div class="relative desktop-dropdown">
         <button class="text-gray-600 hover:text-blue-600 py-4 transition flex items-center">
@@ -16,10 +16,10 @@
                     </button>
                     <div
                         class="absolute left-full top-0 mt-0 w-64 bg-white rounded-md shadow-lg hidden desktop-dropdown-submenu">
-                        <a href="#"
+                        <a href="{{ route('home.categories') }}"
                             class="block px-4 py-2 text-gray-700 hover:bg-gray-100 transition">Frontend</a>
-                        <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100 transition">Backend</a>
-                        <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100 transition">Full
+                        <a href="{{ route('home.categories') }}" class="block px-4 py-2 text-gray-700 hover:bg-gray-100 transition">Backend</a>
+                        <a href="{{ route('home.categories') }}" class="block px-4 py-2 text-gray-700 hover:bg-gray-100 transition">Full
                             Stack</a>
                     </div>
                 </div>

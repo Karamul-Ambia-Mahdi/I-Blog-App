@@ -1,7 +1,7 @@
 <!-- Mobile Menu -->
 <div id="mobile-menu" class="hidden md:hidden bg-white shadow-md">
     <div class="container mx-auto px-4 py-4">
-        <a href="/" class="block py-2 text-blue-600 font-medium">Home</a>
+        <a href="{{ route('home.index') }}" class="block py-2 text-blue-600 font-medium">Home</a>
         <a href="#" class="block py-2 text-gray-600 hover:text-blue-600 transition">Articles</a>
         <div class="relative">
             <button
@@ -18,11 +18,11 @@
                             <i class="fas fa-chevron-down ml-1 text-sm"></i>
                         </button>
                         <div id="mobile-webdev-submenu" class="hidden pl-4 mobile-dropdown-submenu">
-                            <a href="#"
+                            <a href="{{ route('home.categories') }}"
                                 class="block py-2 text-gray-600 hover:text-blue-600 transition">Frontend</a>
-                            <a href="#"
+                            <a href="{{ route('home.categories') }}"
                                 class="block py-2 text-gray-600 hover:text-blue-600 transition">Backend</a>
-                            <a href="#" class="block py-2 text-gray-600 hover:text-blue-600 transition">Full
+                            <a href="{{ route('home.categories') }}" class="block py-2 text-gray-600 hover:text-blue-600 transition">Full
                                 Stack</a>
                         </div>
                     </div>
